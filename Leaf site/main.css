@@ -1,0 +1,57 @@
+.img-wrapper {
+    position: relative;
+   }
+  
+.img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+.img-overlay:before {
+    content: ' ';
+    display: block;
+    height: 70%;
+  }
+#imghome{
+    margin-top: 80px;
+}
+
+.dugme{
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+}
+
+.margina{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.hometxtmargina{
+  margin-right: 30%;
+}
+
+.visina{
+  height: 270px;
+}
+
+#aboutas{
+  margin-top: 10px;
+  
+}
+
+#footer{
+  background-color: rgb(121, 124, 120);
+  height: 400px;
+  padding-top: 100px;
+  color: white;
+}
